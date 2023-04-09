@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url(header.css);
+@import url(genericos.css);
+:root {
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* CONTAINER */
+.container {
+  margin-top: 4.875rem;
+  gap: 5px;
+}
+.contarinerCards {
+  gap: 15px;
+}
+
+/* BANNER */
+.cardBanner {
+  height: 18rem;
+  background: linear-gradient(
+    180deg,
+    #052b68 0%,
+    rgb(21, 102, 253) 35%,
+    #fafafa 100%
+  );
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  align-items: center;
+  justify-content: center;
+}
+.banner .title {
+  text-align: center;
+  text-shadow: 0px 1px 10px #032d6d;
+}
+
+/* CARDS */
+.oracion {
+  align-items: center;
+  gap: 11px;
+}
+.celula {
+  align-items: center;
+  gap: 11px;
+}
+
+/* CARDS REUNIONES */
+.cardsReuniones {
+  background: #fafafa;
+  background: linear-gradient(
+    192deg,
+    #fafafa 25%,
+    rgba(42, 166, 241, 1) 50%,
+    rgba(8, 46, 228, 1) 100%
+  );
+  align-items: center;
+}
+.reuniones {
+  padding-top: 10px;
+  gap: 35px;
+}
+.reuniones .subTitle {
+  padding-top: 10px;
+  font-size: 3rem;
+  line-height: 3.4375rem;
+  color: #fafafa;
+  text-shadow: -1px -1px 5px #a2c1fb, 1px -1px 3px #a2c1fb, -1px 1px 4px #052b68,
+    1px 1px 8px #052b68;
+}
+.reuniones .reu {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+  font-weight: 700;
+}
+.reus .horario {
+  color: #fafafa;
+}
+
+.direcMAp {
+  border: 1px solid red;
+}
+.direcMAp .map {
+  /* width: 400; */
+  height: 300;
+  padding: 0;
+}
+
+.direcMAp .direc {
+  margin-top: 20px;
+  gap: 5px;
+  align-items: baseline;
+}
+.direc i {
+  color: #333333;
+}
+.direc .dir {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fafafa;
+}
+
+.redes {
+  height: 15rem;
+  justify-content: center;
+}
+.redes .social {
+  width: min-content;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.btn:active {
+  background-color: rgb(76, 124, 212);
+  color: #fff;
+}

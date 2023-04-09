@@ -1,0 +1,86 @@
+/* Navbar */
+.contenedor-header {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0;
+}
+
+#nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.9375rem;
+  background-color: #052b68;
+  position: relative;
+  z-index: 99;
+  /* border: 1px solid red; */
+}
+
+.content-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+  z-index: 99;
+  /* border: 1px solid red; */
+}
+.content-logo .logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: url(/Layout/images/IDC.png) no-repeat center / cover;
+}
+.content-logo .titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f5f5f5;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transform: translateY(-15rem);
+  z-index: 98;
+  background-color: #052b68b6;
+  transition: transform 0.5s ease-in;
+  padding: 0.3125rem 0;
+  position: absolute;
+  backdrop-filter: blur(3px);
+  /* border: 1px solid red; */
+}
+.nav-links .menu {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 0.3125rem;
+  z-index: 97;
+  /* border: 1px solid red; */
+}
+.nav-links li {
+  padding: 1rem 1.5rem;
+}
+.nav-links li a {
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.0625rem;
+  /* border: 1px solid red; */
+}
+.nav-links.active {
+  transform: translateY(0rem);
+}
+
+#nav .nav-responsive i {
+  font-size: 2rem;
+  color: #f5f5f5;
+  display: flex;
+  position: absolute;
+  top: 1.5625rem;
+  right: 1.5625rem;
+  cursor: pointer;
+}
