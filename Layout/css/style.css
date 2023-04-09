@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
-@import url(header.css);
-@import url(genericos.css);
-:root {
-}
+@import url(/Layout/css/header.css);
+@import url(/Layout/css/genericos.css);
+/* :root {
+} */
 
 body {
   background-color: #fafafa;
