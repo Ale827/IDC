@@ -29,7 +29,7 @@
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background: url(/Layout/images/IDC.png) no-repeat center / cover;
+  background: url(../images/IDC.png) no-repeat center / cover;
 }
 .content-logo .titulo {
   font-family: "Poppins", sans-serif;
