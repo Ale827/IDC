@@ -1,0 +1,95 @@
+/* BANNER */
+.cardBanner {
+  height: var(--medida-card-uno);
+  background: var(--degrade-uno);
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  align-items: center;
+  justify-content: center;
+}
+.banner .title {
+  text-align: center;
+  text-shadow: var(--shadow-uno);
+}
+
+/* CARDS */
+.oracion {
+  align-items: center;
+  gap: 0.6875rem;
+}
+.celula {
+  align-items: center;
+  gap: 0.6875rem;
+}
+
+/* REUNIONES */
+.cardsReuniones {
+  background: var(--background-uno);
+  background: var(--degrade-dos);
+  align-items: center;
+}
+.reuniones {
+  padding-top: 0.625rem;
+  gap: 2.1875rem;
+}
+.reuniones .subTitle {
+  padding-top: 0.625rem;
+  font-size: 3rem;
+  line-height: 3.4375rem;
+  color: #fafafa;
+  text-shadow: var(--shadow-dos);
+}
+.reuniones .reu {
+  font-size: 2rem;
+  font-family: var(--font-principal);
+  color: var(--negro-uno);
+  font-weight: 700;
+}
+.reus .horario {
+  color: var(--background-uno);
+}
+
+/* MAPA */
+.direcMAp {
+}
+.direcMAp .map {
+  height: 300;
+  padding: 0;
+}
+
+/* DIRECCION */
+
+.direcMAp .direc {
+  margin-top: 1.25rem;
+  gap: 0.3125rem;
+  align-items: baseline;
+}
+.direc i {
+  color: var(--negro-uno);
+}
+.direc .dir {
+  font-family: var(--font-principal);
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--background-uno);
+}
+
+/* REDES SOCIALES */
+
+.redes {
+  height: var(--medida-card-dos);
+  justify-content: center;
+}
+.redes .social {
+  width: min-content;
+  font-size: 1.2rem;
+  font-family: var(--font-principal);
+  font-weight: 700;
+  line-height: 3.125rem;
+
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.9375rem;
+}

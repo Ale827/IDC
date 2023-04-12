@@ -1,0 +1,21 @@
+/* FOOTER */
+
+.footer {
+  background: var(--negro-dos);
+  padding-bottom: 0.5rem;
+}
+
+.copy {
+}
+
+.redesFooter {
+  height: var(--medida-card-tres);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.infoFooter {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+}

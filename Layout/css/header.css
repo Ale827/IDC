@@ -1,4 +1,6 @@
+@import url(style.css);
 /* Navbar */
+
 .contenedor-header {
   position: fixed;
   width: 100%;
@@ -12,10 +14,9 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 0.9375rem;
-  background-color: #052b68;
+  background-color: var(--background-nav-uno);
   position: relative;
   z-index: 99;
-  /* border: 1px solid red; */
 }
 
 .content-logo {
@@ -23,33 +24,31 @@
   align-items: center;
   gap: 0.9375rem;
   z-index: 99;
-  /* border: 1px solid red; */
 }
 .content-logo .logo {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background: url(../images/IDC.png) no-repeat center / cover;
+  background: var(--logo);
 }
 .content-logo .titulo {
-  font-family: "Poppins", sans-serif;
-  font-size: 2.5rem;
+  font-family: var(--font-principal);
+  font-size: var(--titulo-uno);
   font-weight: 700;
-  color: #f5f5f5;
+  color: var(--blanco-uno);
 }
 
 .nav-links {
   width: 100%;
   display: flex;
   align-items: center;
-  transform: translateY(-15rem);
+  transform: translateY(-16rem);
   z-index: 98;
-  background-color: #052b68b6;
+  background-color: var(--background-nav-dos);
   transition: transform 0.5s ease-in;
-  padding: 0.3125rem 0;
+
   position: absolute;
   backdrop-filter: blur(3px);
-  /* border: 1px solid red; */
 }
 .nav-links .menu {
   width: 100%;
@@ -58,18 +57,16 @@
   align-items: center;
   gap: 0.3125rem;
   z-index: 97;
-  /* border: 1px solid red; */
 }
 .nav-links li {
   padding: 1rem 1.5rem;
 }
 .nav-links li a {
-  color: #f5f5f5;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
+  color: var(--blanco-basico);
+  font-family: var(--font-principal);
+  font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 0.0625rem;
-  /* border: 1px solid red; */
 }
 .nav-links.active {
   transform: translateY(0rem);
@@ -77,10 +74,18 @@
 
 #nav .nav-responsive i {
   font-size: 2rem;
-  color: #f5f5f5;
+  color: var(--blanco-uno);
   display: flex;
   position: absolute;
   top: 1.5625rem;
   right: 1.5625rem;
   cursor: pointer;
+}
+
+.jovenes {
+  background: var(--backgorund-nav-tres);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
